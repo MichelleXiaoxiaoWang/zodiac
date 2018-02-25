@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		138878C12040A91900C77A39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138878C02040A91900C77A39 /* AppDelegate.swift */; };
+		138878C32040A91900C77A39 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138878C22040A91900C77A39 /* ViewController.swift */; };
+		138878C62040A91A00C77A39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 138878C42040A91A00C77A39 /* Main.storyboard */; };
+		138878C82040A91A00C77A39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 138878C72040A91A00C77A39 /* Assets.xcassets */; };
+		138878CB2040A91A00C77A39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 138878C92040A91A00C77A39 /* LaunchScreen.storyboard */; };
+		138878D62040A91A00C77A39 /* ChineseZodiacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138878D52040A91A00C77A39 /* ChineseZodiacTests.swift */; };
+		138878E12040A91A00C77A39 /* ChineseZodiacUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138878E02040A91A00C77A39 /* ChineseZodiacUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		138878D22040A91A00C77A39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 138878B52040A91900C77A39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 138878BC2040A91900C77A39;
+			remoteInfo = ChineseZodiac;
+		};
+		138878DD2040A91A00C77A39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 138878B52040A91900C77A39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 138878BC2040A91900C77A39;
+			remoteInfo = ChineseZodiac;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		138878BD2040A91900C77A39 /* ChineseZodiac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChineseZodiac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		138878C02040A91900C77A39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		138878C22040A91900C77A39 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		138878C52040A91A00C77A39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		138878C72040A91A00C77A39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		138878CA2040A91A00C77A39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		138878CC2040A91A00C77A39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		138878D12040A91A00C77A39 /* ChineseZodiacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChineseZodiacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		138878D52040A91A00C77A39 /* ChineseZodiacTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChineseZodiacTests.swift; sourceTree = "<group>"; };
+		138878D72040A91A00C77A39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		138878DC2040A91A00C77A39 /* ChineseZodiacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChineseZodiacUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		138878E02040A91A00C77A39 /* ChineseZodiacUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChineseZodiacUITests.swift; sourceTree = "<group>"; };
+		138878E22040A91A00C77A39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		138878EE2042718B00C77A39 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		138878BA2040A91900C77A39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		138878CE2040A91A00C77A39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		138878D92040A91A00C77A39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		138878B42040A91900C77A39 = {
+			isa = PBXGroup;
+			children = (
+				138878BF2040A91900C77A39 /* ChineseZodiac */,
+				138878D42040A91A00C77A39 /* ChineseZodiacTests */,
+				138878DF2040A91A00C77A39 /* ChineseZodiacUITests */,
+				138878BE2040A91900C77A39 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		138878BE2040A91900C77A39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				138878BD2040A91900C77A39 /* ChineseZodiac.app */,
+				138878D12040A91A00C77A39 /* ChineseZodiacTests.xctest */,
+				138878DC2040A91A00C77A39 /* ChineseZodiacUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		138878BF2040A91900C77A39 /* ChineseZodiac */ = {
+			isa = PBXGroup;
+			children = (
+				138878C02040A91900C77A39 /* AppDelegate.swift */,
+				138878C22040A91900C77A39 /* ViewController.swift */,
+				138878C42040A91A00C77A39 /* Main.storyboard */,
+				138878C72040A91A00C77A39 /* Assets.xcassets */,
+				138878C92040A91A00C77A39 /* LaunchScreen.storyboard */,
+				138878CC2040A91A00C77A39 /* Info.plist */,
+				138878EE2042718B00C77A39 /* MyPlayground.playground */,
+			);
+			path = ChineseZodiac;
+			sourceTree = "<group>";
+		};
+		138878D42040A91A00C77A39 /* ChineseZodiacTests */ = {
+			isa = PBXGroup;
+			children = (
+				138878D52040A91A00C77A39 /* ChineseZodiacTests.swift */,
+				138878D72040A91A00C77A39 /* Info.plist */,
+			);
+			path = ChineseZodiacTests;
+			sourceTree = "<group>";
+		};
+		138878DF2040A91A00C77A39 /* ChineseZodiacUITests */ = {
+			isa = PBXGroup;
+			children = (
+				138878E02040A91A00C77A39 /* ChineseZodiacUITests.swift */,
+				138878E22040A91A00C77A39 /* Info.plist */,
+			);
+			path = ChineseZodiacUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		138878BC2040A91900C77A39 /* ChineseZodiac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 138878E52040A91A00C77A39 /* Build configuration list for PBXNativeTarget "ChineseZodiac" */;
+			buildPhases = (
+				138878B92040A91900C77A39 /* Sources */,
+				138878BA2040A91900C77A39 /* Frameworks */,
+				138878BB2040A91900C77A39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChineseZodiac;
+			productName = ChineseZodiac;
+			productReference = 138878BD2040A91900C77A39 /* ChineseZodiac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		138878D02040A91A00C77A39 /* ChineseZodiacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 138878E82040A91A00C77A39 /* Build configuration list for PBXNativeTarget "ChineseZodiacTests" */;
+			buildPhases = (
+				138878CD2040A91A00C77A39 /* Sources */,
+				138878CE2040A91A00C77A39 /* Frameworks */,
+				138878CF2040A91A00C77A39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				138878D32040A91A00C77A39 /* PBXTargetDependency */,
+			);
+			name = ChineseZodiacTests;
+			productName = ChineseZodiacTests;
+			productReference = 138878D12040A91A00C77A39 /* ChineseZodiacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		138878DB2040A91A00C77A39 /* ChineseZodiacUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 138878EB2040A91A00C77A39 /* Build configuration list for PBXNativeTarget "ChineseZodiacUITests" */;
+			buildPhases = (
+				138878D82040A91A00C77A39 /* Sources */,
+				138878D92040A91A00C77A39 /* Frameworks */,
+				138878DA2040A91A00C77A39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				138878DE2040A91A00C77A39 /* PBXTargetDependency */,
+			);
+			name = ChineseZodiacUITests;
+			productName = ChineseZodiacUITests;
+			productReference = 138878DC2040A91A00C77A39 /* ChineseZodiacUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		138878B52040A91900C77A39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Michelle Wang";
+				TargetAttributes = {
+					138878BC2040A91900C77A39 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					138878D02040A91A00C77A39 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 138878BC2040A91900C77A39;
+					};
+					138878DB2040A91A00C77A39 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 138878BC2040A91900C77A39;
+					};
+				};
+			};
+			buildConfigurationList = 138878B82040A91900C77A39 /* Build configuration list for PBXProject "ChineseZodiac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 138878B42040A91900C77A39;
+			productRefGroup = 138878BE2040A91900C77A39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				138878BC2040A91900C77A39 /* ChineseZodiac */,
+				138878D02040A91A00C77A39 /* ChineseZodiacTests */,
+				138878DB2040A91A00C77A39 /* ChineseZodiacUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		138878BB2040A91900C77A39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				138878CB2040A91A00C77A39 /* LaunchScreen.storyboard in Resources */,
+				138878C82040A91A00C77A39 /* Assets.xcassets in Resources */,
+				138878C62040A91A00C77A39 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		138878CF2040A91A00C77A39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		138878DA2040A91A00C77A39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		138878B92040A91900C77A39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				138878C32040A91900C77A39 /* ViewController.swift in Sources */,
+				138878C12040A91900C77A39 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		138878CD2040A91A00C77A39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				138878D62040A91A00C77A39 /* ChineseZodiacTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		138878D82040A91A00C77A39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				138878E12040A91A00C77A39 /* ChineseZodiacUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		138878D32040A91A00C77A39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 138878BC2040A91900C77A39 /* ChineseZodiac */;
+			targetProxy = 138878D22040A91A00C77A39 /* PBXContainerItemProxy */;
+		};
+		138878DE2040A91A00C77A39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 138878BC2040A91900C77A39 /* ChineseZodiac */;
+			targetProxy = 138878DD2040A91A00C77A39 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		138878C42040A91A00C77A39 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				138878C52040A91A00C77A39 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		138878C92040A91A00C77A39 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				138878CA2040A91A00C77A39 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		138878E32040A91A00C77A39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		138878E42040A91A00C77A39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		138878E62040A91A00C77A39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ChineseZodiac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-MichelleXiaoxiaoWang.ChineseZodiac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		138878E72040A91A00C77A39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ChineseZodiac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-MichelleXiaoxiaoWang.ChineseZodiac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		138878E92040A91A00C77A39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ChineseZodiacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-MichelleXiaoxiaoWang.ChineseZodiacTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChineseZodiac.app/ChineseZodiac";
+			};
+			name = Debug;
+		};
+		138878EA2040A91A00C77A39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ChineseZodiacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-MichelleXiaoxiaoWang.ChineseZodiacTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChineseZodiac.app/ChineseZodiac";
+			};
+			name = Release;
+		};
+		138878EC2040A91A00C77A39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ChineseZodiacUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-MichelleXiaoxiaoWang.ChineseZodiacUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ChineseZodiac;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		138878ED2040A91A00C77A39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ChineseZodiacUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-MichelleXiaoxiaoWang.ChineseZodiacUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ChineseZodiac;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		138878B82040A91900C77A39 /* Build configuration list for PBXProject "ChineseZodiac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				138878E32040A91A00C77A39 /* Debug */,
+				138878E42040A91A00C77A39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		138878E52040A91A00C77A39 /* Build configuration list for PBXNativeTarget "ChineseZodiac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				138878E62040A91A00C77A39 /* Debug */,
+				138878E72040A91A00C77A39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		138878E82040A91A00C77A39 /* Build configuration list for PBXNativeTarget "ChineseZodiacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				138878E92040A91A00C77A39 /* Debug */,
+				138878EA2040A91A00C77A39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		138878EB2040A91A00C77A39 /* Build configuration list for PBXNativeTarget "ChineseZodiacUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				138878EC2040A91A00C77A39 /* Debug */,
+				138878ED2040A91A00C77A39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 138878B52040A91900C77A39 /* Project object */;
+}
